@@ -2,7 +2,7 @@
     "firstName": "文",
     "lastName": "金",
     "position": "软件工程师",
-    "resume": "#",
+    "resume": "file/金文简历.doc",
     "isMe": "专业技能熟练使用C#编程,H5前端开发，熟练使用vs2010,2012,2015,webstorm进行开发工作 ，熟练使用html,css ,javasript,JQuery ,phonegap等技术",
     "sex":"男",
     "birthday":"1988-12-19",
@@ -32,17 +32,17 @@
     "myLatestWork": "现于 东软集团任职软件工程师",
     "workShow":[
         {
-            "time":"2013年9月—2014年8月",
+            "time":"2013.9—2014.8",
             "company":"北京林克森",
             "role":"软件工程师"
         },
         {
-            "time":"2014年6月—2015年8月",
-            "company":"辽宁聚进科技",
+            "time":"2014.6—2015.8",
+            "company":"辽宁聚进",
             "role":"软件工程师"
         },
         {
-            "time":"2015年8月—至今",
+            "time":"2015.8—至今",
             "company":"东软集团",
             "role":"软件工程师"
         }
@@ -50,27 +50,93 @@
     "projectShow": [
         {
             "time":"2016/02 - 至今",
-            "role":"PM PG",
-            "introduction":"picc人民健康手机客户端，hydrid app采用phonegap框架开发 MVVM模式。",
+            "role":"PG 接口人 PM",
+            "introduction":"picc人民健康手机客户端。中国人保健康官方APP，用户量600多万。hydrid app采用phonegap框架开发 MVVM模式，服务端负载均衡，Nginx转发，redis缓存。",
             "img": "2.jpg",
             "name":"PICC人民健康APP",
+            "content":"移动端页面开发，接口人需求沟通对接，产品设计，PRD文档编写",
             "url": "https://itunes.apple.com/app/id1121122189"
         },
         {
-            "time":"2016/02 - 至今",
-            "role":"PM PG",
-            "introduction":"picc人民健康手机客户端，hydrid app采用phonegap框架开发 MVVM模式。",
+            "time":"2016/03 – 2016/05",
+            "name":"上海海洋大学新i海大 app",
+            "introduction":"上海海洋大学新i海大 app。学校的erp手机端。hydrid app采用phonegap框架开发,bootstrap knockout等框架， MVVM模式，服务端C# webapi开发。",
+            "content":"移动端页面开发，服务端逻辑处理，接口开发。",
+            "role":"PG",
             "img": "2.jpg",
-            "name":"PICC人民健康APP",
-            "url": "https://itunes.apple.com/app/id1121122189"
+            "url": "https://itunes.apple.com/app/id1057049545"
         },
         {
-            "time":"2016/02 - 至今",
-            "role":"PM PG",
-            "introduction":"picc人民健康手机客户端，hydrid app采用phonegap框架开发 MVVM模式。",
+            "time":"2015/11 – 2016/01",
+            "name":"上海交通大学财务报销一体机",
+            "introduction":"对上海交大报销单据使用一体机的形式进行收集整理汇总上报 。采用c# MVC4，html5,js等开发，DLL接口集开发给设备使用。",
+            "content":"前端页面开发，服务端逻辑处理，硬件DLL程序集开发。",
+            "role":"PG",
             "img": "2.jpg",
-            "name":"PICC人民健康APP",
-            "url": "https://itunes.apple.com/app/id1121122189"
+            "url": ""
+        },
+        {
+            "time":"2015/10 – 2015/11",
+            "name":"微软Lync用户注册powershell接口",
+            "introduction":"集团内部自动化注册微软Lync工具，开发c# powershell接口。",
+            "content":"整个项目中powershell接口的开发，主要用来导入集团用户注册lync。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2015/08 – 2016/02",
+            "name":"风神物流备件可视化系统",
+            "introduction":"对风神物流所需相关数据进行采集整理，实现整车全物流周期的可视化 C#开发，采用MVC4+EF5后端html5,js前端。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2015/02 – 2015/08",
+            "name":"鞍钢集团公司生产集成平台",
+            "introduction":"对鞍山钢铁股份有限公司的采矿数据整合处理展示。C#开发，采用MVC4+EF5后端html5,js页面效果控制。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2014/11 –2015/02",
+            "name":"鞍钢集团公司井下采矿人员定位系统",
+            "introduction":"对地下矿井人员地理位置信息采集，显示，报警。C#开发，采用MVC4+EF5后端html5,js页面效果控制。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2014/08 -- 2014/11",
+            "name":"鞍钢集团公司GPS车辆油耗系统",
+            "introduction":"采矿场内车辆位置定位采集，油耗采集显示功能。车辆轨迹回放功能。采用MVC4+EF5后端html5,js页面效果控制。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2014/01 -- 2014/07",
+            "name":"吉林省质监局报表系统",
+            "introduction":"吉林质监局的报表统一整理形成系统。采用silverlight wpf框架开发。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2013/08 -- 2013/12",
+            "name":"河南省风神轮胎能源管理系统",
+            "introduction":"监督监控企业生产能源损耗与警报。采用silverlight wpf框架开发。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
         }
     ],
     "email": "adewrer@qq.com",

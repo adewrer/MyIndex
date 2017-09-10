@@ -521,6 +521,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 27px;
     display: inline-block;
     color: #000;
+text-indent: 0em;
     text-transform: uppercase;
 }
 
@@ -539,7 +540,7 @@ h1, h2, h3, h4, h5, h6, p {
 .work-item {
     max-height: 250px;
     cursor: pointer;
-    margin-bottom: 24px;
+    margin-bottom: 4em;
     position: relative;
     cursor: default;
     overflow: hidden;
@@ -1025,8 +1026,9 @@ h1, h2, h3, h4, h5, h6, p {
         }
 
         .services-content ul li:first-child {
-            font-size: 0.8125rem;
-            font-size: 13px;
+            /*font-size: 0.8125rem;*/
+            /*font-size: 13px;*/
+            text-indent: 0em;
         }
         
         .span_1 {

@@ -1,59 +1,147 @@
 {
-    "firstName": "Haoquan",
-    "lastName": "Yin",
-    "position": "SOFTWARE ENGINEER",
-    "resume": "#",
-    "isMe": "Very like computers a boy, he thought that if can use the computer to finish things, don't choose and employ persons to do it.Person's life should be colorful life, tedious work let the machine to help you to complete.",
+    "firstName": "文",
+    "lastName": "金",
+    "position": "软件工程师",
+    "resume": "file/金文简历.doc",
+    "isMe": "专业技能熟练使用C#编程,H5前端开发，熟练使用vs2010,2012,2015,webstorm进行开发工作 ，熟练使用html,css ,javasript,JQuery ,phonegap等技术",
+    "sex":"男",
+    "birthday":"1988-12-19",
+    "education":"本科",
+    "Graduated":"辽宁科技大学",
+    "workyear":"5",
+    "major":"网络工程",
     "skill": {
         "1": [
-            "UI / UX DESIGN",
-            "User Interface Design",
-            "Interaction Design",
-            "User Experience Thinking",
-            "Prototyping",
-            "Wireframing"
+            "技能经验",
+            "1、可以独立开发WEB、Hybrid App项目，包括c#后端+H5前端+简单android原生开发",
+            "2、4年前端开发经验，熟悉HTML5及CSS3，响应式布局，精通javastript模块化开发，熟悉jQuery库,vue、knockout等 MVVM模式框架，requirejs模块化开发。熟悉phonegap Hybrid App开发框架。熟悉使用bootstrap、easyui等主流前端开发框架。了解node.js、AngularJS。",
+            "3、3年c#.net后端开发经验,熟练使用MVC4+EF5的开发模式。熟悉SQL，熟练使用SQL Server、mysql、oracle等主流数据库,熟练使用windows服务器IIS部署。",
+            "4、熟练使用VS2010、2012、2013、2015、webstorm、sqlserver management、Navicat等开发工具、数据库工具。熟练使用svn、github等项目代码管理工具。",
+            "5、有产品经理经验，与客户进行需求对接，需求理解，完成项目模块的PRD文档编写，UE绘制等工作。",
+            "6、熟练使用Photoshop CC进行简单的美工作图切图工作。"
+
         ],
         "2": [
-            "DEVELOPMENT",
-            "HTML5 / CSS3",
-            "jQuery & JavaScript libraries",
-            "JAVA / C#",
-            "Spring MVC / ASP.NET MVC",
-            "SQL Server / MySql / Oracle",
-            "Responsive Design",
-            "Git / SVN"
-        ],
-        "3": [
-            "TEAM BUILDING",
-            "Smiling",
-            "Communication",
-            "Team working",
-            "Sharing my skills",
-            "...and more!"
+            "自我评价",
+            "1、本人爱好软件事业，并对从事计算机IT行业的工作拥有浓厚的兴趣。",
+            "2、有良好的团队合作能力，能有效的与队友沟通。",
+            "3、本人接受适应的能力和自学的能力较强，能尽快的熟悉工作环境克服困难。",
+            "4、本人做事踏实，能吃苦耐劳，并能承受较大的压力。"
         ]
     },
-    "myLatestWork": "Neusoft company as a software engineer",
-    "workShow": [
+    "myLatestWork": "现于 东软集团任职软件工程师",
+    "workShow":[
+       {
+                   "time":"2013.9—2014.8",
+                   "company":"北京林克森",
+                   "role":"软件工程师"
+               },
+               {
+                   "time":"2014.6—2015.8",
+                   "company":"辽宁聚进",
+                   "role":"软件工程师"
+               },
+               {
+                   "time":"2015.8—至今",
+                   "company":"东软集团",
+                   "role":"软件工程师"
+               }
+    ],
+    "projectShow": [
         {
+            "time":"2016/02 - 至今",
+            "role":"PG 接口人 PM",
+            "introduction":"picc人民健康手机客户端。中国人保健康官方APP，用户量600多万。hydrid app采用phonegap框架开发 MVVM模式，服务端负载均衡，Nginx转发，redis缓存。",
             "img": "2.jpg",
-            "name": "School website",
-            "url": "http://www.ddmzxx.com.cn"
+            "name":"PICC人民健康APP",
+            "content":"移动端页面开发，接口人需求沟通对接，产品设计，PRD文档编写",
+            "url": "https://itunes.apple.com/app/id1121122189"
         },
         {
-            "img": "3.jpg",
-            "name": "Government Products",
-            "url": "http://www.lnjy.cc/products_view.asp?id=66"
+            "time":"2016/03 – 2016/05",
+            "name":"上海海洋大学新i海大 app",
+            "introduction":"上海海洋大学新i海大 app。学校的erp手机端。hydrid app采用phonegap框架开发,bootstrap knockout等框架， MVVM模式，服务端C# webapi开发。",
+            "content":"移动端页面开发，服务端逻辑处理，接口开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": "https://itunes.apple.com/app/id1057049545"
         },
         {
-            "img": "4.jpg",
-            "name": "Online products",
-            "url": "http://www.urlearn.cn"
+            "time":"2015/11 – 2016/01",
+            "name":"上海交通大学财务报销一体机",
+            "introduction":"对上海交大报销单据使用一体机的形式进行收集整理汇总上报 。采用c# MVC4，html5,js等开发，DLL接口集开发给设备使用。",
+            "content":"前端页面开发，服务端逻辑处理，硬件DLL程序集开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2015/10 – 2015/11",
+            "name":"微软Lync用户注册powershell接口",
+            "introduction":"集团内部自动化注册微软Lync工具，开发c# powershell接口。",
+            "content":"整个项目中powershell接口的开发，主要用来导入集团用户注册lync。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2015/08 – 2016/02",
+            "name":"风神物流备件可视化系统",
+            "introduction":"对风神物流所需相关数据进行采集整理，实现整车全物流周期的可视化 C#开发，采用MVC4+EF5后端html5,js前端。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2015/02 – 2015/08",
+            "name":"鞍钢集团公司生产集成平台",
+            "introduction":"对鞍山钢铁股份有限公司的采矿数据整合处理展示。C#开发，采用MVC4+EF5后端html5,js页面效果控制。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2014/11 –2015/02",
+            "name":"鞍钢集团公司井下采矿人员定位系统",
+            "introduction":"对地下矿井人员地理位置信息采集，显示，报警。C#开发，采用MVC4+EF5后端html5,js页面效果控制。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+         {
+            "time":"2014/08 -- 2014/11",
+            "name":"鞍钢集团公司GPS车辆油耗系统",
+            "introduction":"采矿场内车辆位置定位采集，油耗采集显示功能。车辆轨迹回放功能。采用MVC4+EF5后端html5,js页面效果控制。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2014/01 -- 2014/07",
+            "name":"吉林省质监局报表系统",
+            "introduction":"吉林质监局的报表统一整理形成系统。采用silverlight wpf框架开发。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
+        },
+        {
+            "time":"2013/08 -- 2013/12",
+            "name":"河南省风神轮胎能源管理系统",
+            "introduction":"监督监控企业生产能源损耗与警报。采用silverlight wpf框架开发。",
+            "content":"页面开发，逻辑功能开发。",
+            "role":"PG",
+            "img": "2.jpg",
+            "url": ""
         }
     ],
-    "email": "yinhaoquan@sina.com",
-    "qq": "http://wpa.qq.com/msgrd?v=3&uin=138111516&site=qq&menu=yes",
-    "wechat": "img/WeChat.jpg",
-    "weibo": "http://weibo.com/u/1355842003",
-    "linkedin": "http://www.linkedin.com/in/%E6%B5%A9%E6%9D%83-%E5%B0%B9-19a9a8a4/",
-    "workImgUrl": "img/works/"
+    "email": "adewrer@qq.com",
+    "qq": "http://wpa.qq.com/msgrd?v=3&uin=309766547&site=qq&menu=yes",
+    "wechat": "img/wechat.jpg",
+
+    "workImgUrl":"img/works/"
 }

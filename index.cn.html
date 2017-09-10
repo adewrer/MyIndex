@@ -122,22 +122,39 @@
                     </div>
                     <div class="col empty">&nbsp;</div>
                 </div>
-                <h3 data-900="-webkit-transform: translateX(-100px); opacity:0;" data-1300="-webkit-transform: translateX(0px); opacity:1;" >项目经验</h3>
                 <div class="work-examples page">
+                    <div class="col work-title">
+                        <h3
+                                data-900="-webkit-transform: translateX(-100px); opacity:0;"
+                                data-1300="-webkit-transform: translateX(0px); opacity:1;" style="margin-bottom: 2em;"
+                        >项目经验</h3>
+                    </div>
                     <div class="col work-item" data-1300="opacity:0;" data-1400="opacity:1;" v-for="p in projectShow">
-                        <p style="float: left;width: 20%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">时间：</p>
-                        <p style="text-align: left;" data-100="opacity:0;" data-500="opacity:1;">{{p.time}}</p>
-                        <p style="float: left;width: 20%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">名称：</p>
-                        <p style="text-align: left;" data-100="opacity:0;" data-500="opacity:1;">{{p.name}}</p>
-                        <p style="float: left;width: 20%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">项目介绍：</p>
-                        <p style="text-align: left;" data-100="opacity:0;" data-500="opacity:1;">{{p.introduction}}</p>
-                        <p style="float: left;width: 20%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">角色：</p>
-                        <p style="text-align: left;" data-100="opacity:0;" data-500="opacity:1;">{{p.role}}</p>
-                        <img :src="workImgUrl+p.img" alt="" width="600" height="400">
-                        <div class="work-item-inside">
+                        <div style=" width: 100%;   float: left;">
+                            <p style="float: left;width: 25%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">时间：</p>
+                            <p style="text-align: left;width: 75%;float: right;" data-100="opacity:0;" data-500="opacity:1;">{{p.time}}</p>
+                        </div>
+                        <div style="    width: 100%;float: left;">
+                        <p style="float: left;width: 25%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">名称：</p>
+                        <p style="text-align: left;width: 75%;float: right;" data-100="opacity:0;" data-500="opacity:1;">{{p.name}}</p>
+                        </div>
+                        <div style="    width: 100%;float: left;">
+                        <p style="float: left;width: 25%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">项目介绍：</p>
+                        <p style="text-align: left;width: 75%;float: right;" data-100="opacity:0;" data-500="opacity:1;">{{p.introduction}}</p>
+                        </div>
+                        <div style="    width: 100%;float: left;">
+                        <p style="float: left;width: 25%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">负责内容：</p>
+                        <p style="text-align: left;width: 75%;float: right;" data-100="opacity:0;" data-500="opacity:1;">{{p.content}}</p>
+                        </div>
+                        <div style="    width: 100%;float: left;">
+                        <p style="float: left;width: 25%;text-align: right;" data-100="opacity:0;" data-500="opacity:1;">角色：</p>
+                        <p style="text-align: left;width: 75%;float: right;" data-100="opacity:0;" data-500="opacity:1;">{{p.role}}</p>
+                        </div>
+
+                        <div class="work-item-inside" v-if="p.url!=''">
                             <div class="work-item-inside-content">
                                 <h4>{{p.name}}</h4>
-                                <a :href="p.url" class="but">点这</a>
+                                <a :href="p.url" class="but">跳转至APP STORE</a>
                             </div>
                         </div>
                     </div>                 
@@ -199,9 +216,9 @@
                 async : false  
             }); 
 
-            $.get("js/data.json",function (data) {
-                    //var str=data.replace(/\r\n/g,"");
-                    totalData=data;
+            $.get("js/data.txt",function (data) {
+                    var str=data.replace(/\r\n/g,"");
+                    totalData=JSON.parse(str);
                     //console.log(totalData);
             });
             

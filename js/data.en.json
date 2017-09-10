@@ -1,0 +1,59 @@
+﻿{
+    "firstName": "Haoquan",
+    "lastName": "Yin",
+    "position": "SOFTWARE ENGINEER",
+    "resume": "#",
+    "isMe": "Very like computers a boy, he thought that if can use the computer to finish things, don't choose and employ persons to do it.Person's life should be colorful life, tedious work let the machine to help you to complete.",
+    "skill": {
+        "1": [
+            "UI / UX DESIGN",
+            "User Interface Design",
+            "Interaction Design",
+            "User Experience Thinking",
+            "Prototyping",
+            "Wireframing"
+        ],
+        "2": [
+            "DEVELOPMENT",
+            "HTML5 / CSS3",
+            "jQuery & JavaScript libraries",
+            "JAVA / C#",
+            "Spring MVC / ASP.NET MVC",
+            "SQL Server / MySql / Oracle",
+            "Responsive Design",
+            "Git / SVN"
+        ],
+        "3": [
+            "TEAM BUILDING",
+            "Smiling",
+            "Communication",
+            "Team working",
+            "Sharing my skills",
+            "...and more!"
+        ]
+    },
+    "myLatestWork": "Neusoft company as a software engineer",
+    "workShow": [
+        {
+            "img": "2.jpg",
+            "name": "School website",
+            "url": "http://www.ddmzxx.com.cn"
+        },
+        {
+            "img": "3.jpg",
+            "name": "Government Products",
+            "url": "http://www.lnjy.cc/products_view.asp?id=66"
+        },
+        {
+            "img": "4.jpg",
+            "name": "Online products",
+            "url": "http://www.urlearn.cn"
+        }
+    ],
+    "email": "yinhaoquan@sina.com",
+    "qq": "http://wpa.qq.com/msgrd?v=3&uin=138111516&site=qq&menu=yes",
+    "wechat": "img/WeChat.jpg",
+    "weibo": "http://weibo.com/u/1355842003",
+    "linkedin": "http://www.linkedin.com/in/%E6%B5%A9%E6%9D%83-%E5%B0%B9-19a9a8a4/",
+    "workImgUrl": "img/works/"
+}

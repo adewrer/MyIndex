@@ -1,0 +1,59 @@
+﻿{
+    "firstName": "文",
+    "lastName": "金",
+    "position": "软件工程师",
+    "resume": "#",
+    "isMe": "热爱IT行业，喜欢钻研学习。",
+    "skill": {
+        "1": [
+            "产品设计",
+            "用户界面设计",
+            "交互设计",
+            "用户体验思考",
+            "原型设计",
+            "框架搭建"
+        ],
+        "2": [
+            "开发能力",
+            "HTML5 / CSS3",
+            "jQuery & JavaScript libraries",
+            "JAVA / C#",
+            "Spring MVC / ASP.NET MVC",
+            "SQL Server / MySql / Oracle",
+            "Responsive Design",
+            "Git / SVN"
+        ],
+        "3": [
+            "团队建设",
+            "伙伴之间亲密无间",
+            "交流顺畅",
+            "团队合作",
+            "懂得分享",
+            "...还有很多!"
+        ]
+    },
+    "myLatestWork": "现于 东软集团任职软件工程师",
+    "workShow": [
+        {
+            "img": "2.jpg",
+            "name":"PICC人民健康APP",
+            "url": "http://www.ddmzxx.com.cn"
+        },
+        {
+            "img": "3.jpg",
+            "name":"上海海洋大学新i海大APP",
+            "url": "http://www.lnjy.cc/products_view.asp?id=66"
+        },
+        {
+            "img": "4.jpg",
+            "name":"优学空间线上产品",
+            "url": "http://www.urlearn.cn"
+        }
+    ],
+    "email": "adewrer@qq.com",
+    "qq": "http://wpa.qq.com/msgrd?v=3&uin=309766547&site=qq&menu=yes",
+    "wechat": "img/WeChat.jpg",
+    "weibo": "http://weibo.com/u/1355842003",
+    "linkedin": "http://www.linkedin.com/in/%E6%B5%A9%E6%9D%83-%E5%B0%B9-19a9a8a4/",
+    "workImgUrl":"img/works/"
+}

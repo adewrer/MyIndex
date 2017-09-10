@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>.:: ReneKing ::. recognition...</title>
+    <script> 
+        
+        var type=navigator.appName 
+        
+        if (type=="Netscape") 
+        var lang = navigator.language 
+        else
+        var lang = navigator.userLanguage 
+        //cut down to first 2 chars of country code 
+        var lang = lang.substr(0,2) 
+        // 英语
+        if (lang == "en") 
+        window.location.replace('index.en.html') 
+        // 简体中文
+        else if (lang == "zh-cn") 
+        window.location.replace('index.cn.html') 
+        // 除上面所列的语言
+        else
+        window.location.replace('index.cn.html')
+        
+    </script>
+</head>
+<body>
+wait a moment...
+</body>
+</html>

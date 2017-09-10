@@ -1,0 +1,82 @@
+﻿{
+    "firstName": "文",
+    "lastName": "金",
+    "position": "软件工程师",
+    "resume": "#",
+    "isMe": "专业技能熟练使用C#编程,H5前端开发，熟练使用vs2010,2012,2015,webstorm进行开发工作 ，熟练使用html,css ,javasript,JQuery ,phonegap等技术",
+    "sex":"男",
+    "birthday":"1988-12-19",
+    "education":"本科",
+    "Graduated":"辽宁科技大学",
+    "workyear":"5",
+    "major":"网络工程",
+    "skill": {
+        "1": [
+            "技能经验",
+            "1、可以独立开发WEB、Hybrid App项目，包括c#后端+H5前端+简单android原生开发",
+            "2、4年前端开发经验，熟悉HTML5及CSS3，响应式布局，精通javastript模块化开发，熟悉jQuery库,vue、knockout等 MVVM模式框架，requirejs模块化开发。熟悉phonegap Hybrid App开发框架。熟悉使用bootstrap、easyui等主流前端开发框架。了解node.js、AngularJS。",
+            "3、3年c#.net后端开发经验,熟练使用MVC4+EF5的开发模式。熟悉SQL，熟练使用SQL Server、mysql、oracle等主流数据库,熟练使用windows服务器IIS部署。",
+            "4、熟练使用VS2010、2012、2013、2015、webstorm、sqlserver management、Navicat等开发工具、数据库工具。熟练使用svn、github等项目代码管理工具。",
+            "5、有产品经理经验，与客户进行需求对接，需求理解，完成项目模块的PRD文档编写，UE绘制等工作。",
+            "6、熟练使用Photoshop CC进行简单的美工作图切图工作。"
+
+        ],
+        "2": [
+            "自我评价",
+            "1、本人爱好软件事业，并对从事计算机IT行业的工作拥有浓厚的兴趣。",
+            "2、有良好的团队合作能力，能有效的与队友沟通。",
+            "3、本人接受适应的能力和自学的能力较强，能尽快的熟悉工作环境克服困难。",
+            "4、本人做事踏实，能吃苦耐劳，并能承受较大的压力。"
+        ]
+    },
+    "myLatestWork": "现于 东软集团任职软件工程师",
+    "workShow":[
+        {
+            "time":"2013年9月—2014年8月",
+            "company":"北京林克森",
+            "role":"软件工程师"
+        },
+        {
+            "time":"2014年6月—2015年8月",
+            "company":"辽宁聚进科技",
+            "role":"软件工程师"
+        },
+        {
+            "time":"2015年8月—至今",
+            "company":"东软集团",
+            "role":"软件工程师"
+        }
+    ],
+    "projectShow": [
+        {
+            "time":"2016/02 - 至今",
+            "role":"PM PG",
+            "introduction":"picc人民健康手机客户端，hydrid app采用phonegap框架开发 MVVM模式。",
+            "img": "2.jpg",
+            "name":"PICC人民健康APP",
+            "url": "https://itunes.apple.com/app/id1121122189"
+        },
+        {
+            "time":"2016/02 - 至今",
+            "role":"PM PG",
+            "introduction":"picc人民健康手机客户端，hydrid app采用phonegap框架开发 MVVM模式。",
+            "img": "2.jpg",
+            "name":"PICC人民健康APP",
+            "url": "https://itunes.apple.com/app/id1121122189"
+        },
+        {
+            "time":"2016/02 - 至今",
+            "role":"PM PG",
+            "introduction":"picc人民健康手机客户端，hydrid app采用phonegap框架开发 MVVM模式。",
+            "img": "2.jpg",
+            "name":"PICC人民健康APP",
+            "url": "https://itunes.apple.com/app/id1121122189"
+        }
+    ],
+    "email": "adewrer@qq.com",
+    "qq": "http://wpa.qq.com/msgrd?v=3&uin=138111516&site=qq&menu=yes",
+    "wechat": "img/wechat.jpg",
+    "weibo": "http://weibo.com/u/1355842003",
+    "linkedin": "http://www.linkedin.com/in/%E6%B5%A9%E6%9D%83-%E5%B0%B9-19a9a8a4/",
+    "workImgUrl":"img/works/"
+}

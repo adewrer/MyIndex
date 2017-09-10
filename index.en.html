@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+
+        <!-- Basics -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>.:: ReneKing ::.</title>
+        <link name="author" href="#" />
+        <meta name="description" content="Haoquan,Software Engineer">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="img/favicons/favicon.ico">
+
+        <!-- Mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Fonts 
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700'>-->
+		<style>
+			*{font-family:"Microsoft Yahei";}
+        </style>
+
+    </head>
+    <body>           
+
+        <div class="wrapper" id="vData">
+
+            <header>
+                <a class="menu-icon jiji">
+                    <span></span>
+                </a>
+                <nav class="menu visuallyhidden">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#work">My Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="home" class="row">
+                <div class="overlay">
+                    <div class="col home-title jiji">
+                        <h1 id="myName">{{lastName}} {{firstName}}</h1>
+                        <h2>{{position}}</h2>
+                        <a href="#" target="_blank" class="but">Download Resume</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="row">
+                <div class="page about-content">
+                    <div class="col about-title">
+                        <h3
+                            data-100="-webkit-transform: translateX(100px); opacity:0;"
+                            data-500="-webkit-transform: translateX(0px); opacity:1;"
+                        >About me</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col about-description">
+                        <p
+                            data-100="opacity:0;"
+                            data-500="opacity:1;"
+                        >{{isMe}}</p>
+                        <a href="#contact" class="but">Get in touch</a>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                </div>
+            </section>
+
+            <section id="services" class="row">
+                <div class="services-content page">
+                    <div class="col services-design"
+                        data-600="-webkit-transform: translateY(10px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-design"></span>
+                        <ul>
+                            <li  v-for="s in skill[1]">{{s}}</li>
+                        </ul>
+                    </div>
+                    <div class="col services-frontend"
+                        data-600="-webkit-transform: translateY(50px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-computer"></span>
+                        <ul>
+                            <li  v-for="s in skill[2]">{{s}}</li>
+                        </ul>
+                    </div>
+                    <div class="col services-team"
+                        data-600="-webkit-transform: translateY(100px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-music"></span>
+                        <ul>
+                            <li  v-for="s in skill[3]">{{s}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="work" class="row">
+                <div class="work-content page">
+                    <div class="col work-title">
+                        <h3
+                            data-900="-webkit-transform: translateX(-100px); opacity:0;"
+                            data-1300="-webkit-transform: translateX(0px); opacity:1;"
+                        >My latest work</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col work-description">
+                        <p
+                            data-900="opacity:0;"
+                            data-1300="opacity:1;"
+                        >{{myLatestWork}}</p>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                </div>
+                <div class="work-examples page">
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1400="opacity:1;"
+                        v-for="w in workShow"
+                    >
+                        <img :src="workImgUrl+w.img" alt="" width="600" height="400">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>{{w.name}}</h4>
+                                <a :href="w.url" class="but">Click here</a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="contact" class="row">
+                <div class="contact-content page">
+                    <div class="col contact-title">
+                        <h3
+                            data-100="-webkit-transform: translateX(100px); opacity:0;"
+                            data-500="-webkit-transform: translateX(0px); opacity:1;"
+                        >Get in touch</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col contact-description">
+                        <a :href="'mailto\:'+email" class="but">{{email}}</a>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col span_12 social">
+                        <a class="iconfont icon-qq" :href="qq" target="_blank"></a>
+                        <a id="wxAction" class="iconfont icon-weixin" data-src="img/WeChat.jpg" target="_blank"></a>
+                        <a class="iconfont icon-weibo" :href="weibo" target="_blank"></a>
+                        <a class="iconfont icon-linkedin" :href="linkedin" target="_blank"></a>
+                    </div>
+                    <!--隐藏图层使用 wechat show-->
+                    <div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">
+                        <div id="innerdiv" style="position:absolute;">
+                            <img id="bigimg" style="border:5px solid #fff;" src="" />
+                        </div>
+                    </div>  
+                </div>
+            </section>
+
+            <footer id="footer" class="row">
+                <div class="footer-content page">
+                    <div class="col f1">
+                        <p>© 2017 Yin Haoquan.</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <div class="loader"></div>
+        
+        <!-- JavaScript -->
+        <script src="js/jquery-1.11.0.min.js" ></script>
+        <script src="js/vue.min.js"></script>
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/self.js"></script>
+        <script>  
+
+            var totalData;
+            
+            $.ajaxSetup({  
+                async : false  
+            }); 
+
+            $.get("js/data.en.txt",function (data) {
+                    var str=data.replace(/\r\n/g,"");
+                    totalData=JSON.parse(str);
+                    //console.log(totalData);
+            });
+            
+            $(function(){  
+                
+                $("#wxAction").click(function(){  
+                    var _this = $(this);//将当前的pimg元素作为_this传入函数  
+                    imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);  
+                });  
+                
+            });  
+            
+
+            new Vue({
+                el:'#vData',
+                data:totalData
+            });
+
+            var yourName=document.getElementById("myName").innerText;
+            document.title =".:: "+yourName+" ::." ;
+        </script> 
+    </body>
+
+</html>

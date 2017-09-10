@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+    <head>
+    <title>.:: YinHaoquan Edit ::.</title>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script src="js/FileSaver.js"></script>
+    <script type="text/javascript">
+	
+        $(function() {
+			
+			$("#submitInfo").click(function(){
+				
+			});
+			
+        });
+		
+    </script>
+    </head>
+    <body>
+    <div>
+      <table width="400" border="1">
+        <tr>
+          <td>姓</td>
+          <td><label for="lastName"></label>
+          <input type="text" name="lastName" id="lastName"></td>
+        </tr>
+        <tr>
+          <td>名</td>
+          <td><label for="firstName"></label>
+            <input type="text" name="firstName" id="firstName"></td>
+        </tr>
+        <tr>
+          <td>职位</td>
+          <td><label for="position"></label>
+          <input type="text" name="position" id="position"></td>
+        </tr>
+        <tr>
+          <td>关于我</td>
+          <td><label for="isMe"></label>
+          <textarea name="isMe" id="isMe"></textarea></td>
+        </tr>
+        <tr>
+          <td>我现在的工作</td>
+          <td><label for="myLatestWork"></label>
+          <input type="text" name="myLatestWork" id="myLatestWork"></td>
+        </tr>
+        <tr>
+          <td>邮箱</td>
+          <td><label for="email"></label>
+          <input type="text" name="email" id="email"></td>
+        </tr>
+        <tr>
+          <td>QQ</td>
+          <td><label for="qq"></label>
+          <input type="text" name="qq" id="qq"></td>
+        </tr>
+        <tr>
+          <td>微信</td>
+          <td><label for="wechat"></label>
+          <input type="text" name="wechat" id="wechat"></td>
+        </tr>
+        <tr>
+          <td>微博</td>
+          <td><label for="weibo"></label>
+          <input type="text" name="weibo" id="weibo"></td>
+        </tr>
+        <tr>
+          <td>领英</td>
+          <td><label for="linkedin"></label>
+          <input type="text" name="linkedin" id="linkedin"></td>
+        </tr>
+        <tr>
+          <td>技能展示 左</td>
+          <td><label for="skill1"></label>
+          <textarea name="skill1" id="skill1"></textarea></td>
+        </tr>
+        <tr>
+          <td>技能展示 中</td>
+          <td><textarea name="skill2" id="skill2"></textarea></td>
+        </tr>
+        <tr>
+          <td>技能展示 右</td>
+          <td><textarea name="skill3" id="skill3"></textarea></td>
+        </tr>
+        <tr>
+          <td>工作展示</td>
+          <td>
+          		<div id="works">
+                	<div id="workTop">
+                    	<h4>1</h4>
+                         <label for="name">简介</label>
+                         <input type="text" name="name" id="name"><br/>
+                         <label for="name">链接</label>
+                         <input type="text" name="url" id="url">
+                	</div>                    
+                </div>
+                <a>再添加一条</a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><input type="submit" name="submitInfo" id="submitInfo" value="提交"></td>
+        </tr>
+      </table>
+    </div>
+</body>
+</html>

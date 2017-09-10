@@ -199,9 +199,9 @@
                 async : false  
             }); 
 
-            $.get("js/data.txt",function (data) {
-                    var str=data.replace(/\r\n/g,"");
-                    totalData=JSON.parse(str);
+            $.get("js/data.json",function (data) {
+                    //var str=data.replace(/\r\n/g,"");
+                    totalData=data;
                     //console.log(totalData);
             });
             
